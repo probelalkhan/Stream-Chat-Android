@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Stream Chat</string>
+    <string name="build_seamless_chat_experience_with_stream">Build seamless chat experience with Stream</string>
+    <string name="enter_your_phone_number_to_get_started">Enter your phone number to get started</string>
+    <string name="setup_your_profile">Setup your profile</string>
+    <string name="new_message">New message</string>
+    <string name="please_wait">Please wait while we verify your phone number</string>
+    <string name="invalid_code_entered">Invalid code entered</string>
+    <string name="try_later">Try again later</string>
+</resources>

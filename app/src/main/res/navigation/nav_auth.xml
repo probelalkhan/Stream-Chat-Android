@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_auth"
+    app:startDestination="@id/enterPhoneFragment">
+
+    <fragment
+        android:id="@+id/enterPhoneFragment"
+        android:name="io.getstream.streamchat1.ui.auth.EnterPhoneFragment"
+        android:label="EnterPhoneFragment" />
+    <fragment
+        android:id="@+id/verifyPhoneFragment"
+        android:name="io.getstream.streamchat1.ui.auth.VerifyPhoneFragment"
+        android:label="VerifyPhoneFragment" />
+    <fragment
+        android:id="@+id/setupProfileFragment"
+        android:name="io.getstream.streamchat1.ui.auth.SetupProfileFragment"
+        android:label="SetupProfileFragment" />
+</navigation>

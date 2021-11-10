@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_chat.xml"
+    app:startDestination="@id/newMessageFragment">
+
+    <fragment
+        android:id="@+id/newMessageFragment"
+        android:name="io.getstream.streamchat1.ui.chat.NewMessageFragment"
+        android:label="NewMessageFragment" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="io.getstream.streamchat1.ui.chat.ChatFragment"
+        android:label="ChatFragment" />
+</navigation>
